@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "studentlib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/studentlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/studentlib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "studentlib/1.0.0": {
+      "type": "project",
+      "path": "../studentlib/studentlib.csproj",
+      "msbuildProject": "../studentlib/studentlib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "studentlib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\1125899\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\1125899\\Desktop\\g\\zadanie8\\zadanie8\\zadanie8\\zadanie8.csproj",
+      "projectName": "zadanie8",
+      "projectPath": "C:\\Users\\1125899\\Desktop\\g\\zadanie8\\zadanie8\\zadanie8\\zadanie8.csproj",
+      "packagesPath": "C:\\Users\\1125899\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\1125899\\Desktop\\g\\zadanie8\\zadanie8\\zadanie8\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\1125899\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Users\\1125899\\Desktop\\g\\zadanie8\\zadanie8\\studentlib\\studentlib.csproj": {
+              "projectPath": "C:\\Users\\1125899\\Desktop\\g\\zadanie8\\zadanie8\\studentlib\\studentlib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
